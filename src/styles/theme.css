@@ -3,8 +3,8 @@
 :root {
   color-scheme: light;
   font-family:
-    Inter, Pretendard, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont,
-    Arial, sans-serif;
+    "Noto Sans KR", "Noto Sans", "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, Arial, sans-serif;
 
   --bg: #e8f8fd;
   --bg-gradient-start: #f5fbff;
@@ -92,7 +92,7 @@
 }
 
 @theme inline {
-  --font-sans: Inter, Pretendard, "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Noto Sans KR", "Noto Sans", "Segoe UI", system-ui, sans-serif;
 
   --color-bg: var(--bg);
   --color-surface: var(--surface);
