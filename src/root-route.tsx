@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from "react-router";
-import IndexPage from "./index.page";
 import GlobalLayout from "./components/layout/global-layout";
+import IndexPage from "./pages/index.page";
 
 export default function RootRoute() {
   return (
